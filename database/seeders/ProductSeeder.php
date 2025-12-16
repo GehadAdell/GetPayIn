@@ -13,7 +13,7 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-        Product::create([
+        Product::updateOrCreate([
             'name' => 'skirt',
             'price' => 99.90,
             'stock' => 10,
