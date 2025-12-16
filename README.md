@@ -89,3 +89,5 @@ https://<ngrok-id>.ngrok.io/payments/webhook
 - Expired holds release stock automatically.
 - Orders validate holds before processing payment.
 - Payment Webhook enforces idempotency to avoid duplicate updates.
+
+postman link : https://local-work-team.postman.co/workspace/My-Workspace~ddf02c76-90da-4b42-806b-d9601d8d4041/folder/45836357-de9aef12-742b-400f-b6b9-592a9ea0d7dc?action=share&creator=45836357&ctx=documentation
