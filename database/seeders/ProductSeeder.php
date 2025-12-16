@@ -14,7 +14,7 @@ class ProductSeeder extends Seeder
     public function run(): void
     {
         Product::create([
-            'name' => 'Flash Sale Item - Limited Edition',
+            'name' => 'skirt',
             'price' => 99.90,
             'stock' => 10,
         ]);

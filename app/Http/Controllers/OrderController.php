@@ -42,7 +42,7 @@ class OrderController extends Controller
                 'hold_id' => $hold->id,
                 'qty' => $hold->qty,
                 'total_price' => $hold->qty * $product->price,
-                'status' => 'PENDING_PAYMENT',
+                'status' => 'pending',
             ]);
 
             $hold->is_used = true;

@@ -12,7 +12,6 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('webhook_events', function (Blueprint $table) {
-            $table->id();
             $table->string('idempotency_key')->primary();
             $table->string('order_reference');
             $table->softDeletes();

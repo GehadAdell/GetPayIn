@@ -16,11 +16,6 @@ class Product extends Model
         'stock',
     ];
 
-    protected $casts = [
-        'price' => 'decimal',
-        'stock' => 'integer',
-    ];
-
     public function holds()
     {
         return $this->hasMany(Hold::class);
